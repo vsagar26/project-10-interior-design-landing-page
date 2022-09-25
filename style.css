@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lora:wght@400;500;600;700&family=Montserrat:wght@200;400;500;600;700;800;900&family=Oswald:wght@200;700&family=Poppins&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat;
+    
+}
+
+img{
+    height: 30px;
+}
+
+body{
+    background: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 50px; */
+    
+    /* background-size: 1540px;
+    background-position: 0px -40px ; */
+    
+    
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 20px;
+    margin: 0px 30px;
+}
+
+body nav, .nav-menu{
+    display: flex;
+    margin-top: 30px;
+    color: #fff;
+    /* justify-content: space-between; */
+}
+
+.nav-menu {
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 32%;
+    
+}
+
+.nav-menu h3{
+    padding-right: 80px;
+}
+
+.contact-us {
+    display: flex;
+    position: absolute;
+    right: 5%;
+    margin-top: 16px;
+}
+
+.contact-us>img{
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+.hr-line{
+    background-color: #fff;
+    height: 2px;
+    width: 64.5%;
+    position: absolute;
+    top: 140px;
+    right: 4%;
+
+}
+
+.main-heading h2{
+    font-size: 70px;
+    font-weight: 700;
+    width: 60%;
+    color: #fff;
+    padding: 20px 20px;
+    margin-top: 140px;
+    margin-left: 30px;
+    word-spacing: 8px;
+}
+
+.main-heading button{
+    background: transparent;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 14px 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #fff;
+    border-color: #fff;
+    border-width: 4px;
+    
+
+}
+
+.body-part{
+    display: flex;
+}
+
+.left-seg-1, .left-seg-2{
+    background-color: #c8c8c82f;
+    width: 75%;
+    height: 150px;
+    color: #fff;
+    
+    
+}
+
+.left-seg-1{
+    position: absolute;
+    top: 230px;
+    right: 100px;
+    width: 270px;
+    height: 160px;
+}
+
+.left-seg-1 img{
+    height: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+
+}
+
+.left-seg-1 h4 {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.left-seg-2{
+    position: absolute;
+    top: 560px;
+    right: 380px;
+    width: 270px;
+    height: 180px;
+    
+}
+
+.left-seg-2 img{
+    height: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+
+.left-seg-2 h4{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 20px;  
+    width: 220px;
+}
+
+/* .rect-1, .rect-2  {
+    background-color: #fff;
+    height: 60px;
+    width: 2px;
+    position: absolute;
+
+} */
+
+/* .circle-1, .circle-2{
+    background-color: #fff;
+    height: 10px;
+    border-radius: 10px;
+    border-width: 0ch;
+
+} */
+
+.rect-1{
+    background-color: rgba(255, 255, 255, 0.776);
+    height: 60px;
+    width: 1.5px;
+    position: absolute;
+
+    top: 390px;
+    right: 160px;
+}
+
+.rect-2{
+    background-color: rgba(255, 255, 255, 0.719);
+    height: 1.5px;
+    width: 80px;
+    position: absolute;
+
+    top: 660px;
+    right: 300px;
+}
+
+.circle-1{
+    position: absolute;
+    background-color: #fff;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    border-width: 0ch;
+    top: 440px;
+    right: 153px;
+}
+
+.circle-2{
+    position: absolute;
+    background-color: #fff;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    border-width: 0ch;
+    top: 653px;
+    right: 285px;
+}
+
+footer{
+    height: 400px;
+}
+
+@media screen and (min-width:600px){
+    .menu-bar{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:840px){
+    .menu-bar img{
+        margin-top: 40px;
+        margin-left: 240px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .logo h1{
+        font-size: 26px;
+    }
+
+    .contact-us h3{
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    .contact-us img{
+        height: 20px;
+        margin-top: -20px;
+    }
+    .hr-line{
+        width: 440px;
+    }
+    .main-heading h2{
+        font-size: 38px;
+        margin-top: 300px;
+    }
+    .left-seg-1{
+        top: 230px;
+        left: 180px;
+    }
+    .left-seg-2{
+        top: 880px;
+        left: 50px;
+    }
+
+    .rect-2{
+        top: 960px;
+        left: 320px;
+    }
+    .circle-2{
+        top: 954px;
+        left: 400px;
+    }
+    .main-heading button{
+        height: 60px;
+        width: 180px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+
+
